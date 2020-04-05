@@ -123,7 +123,7 @@ The above copyright notice and this permission notice shall be included in all c
         <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
           <div class="container-fluid">
             <div class="navbar-wrapper">
-              <a class="navbar-brand" href="javascript:;">Table List</a>
+              <a class="navbar-brand" href="javascript:;">User Profile</a>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
               <span class="sr-only">Toggle navigation</span>
@@ -191,183 +191,127 @@ The above copyright notice and this permission notice shall be included in all c
               <div class="col-md-12">
                 <div class="card">
                   <div class="card-header card-header-primary">
-                    <h4 class="card-title ">Car List Table</h4>
-                    <a  href="car-add.html" class="btn btn-primary"> Add New Car</a>
+                    <h4 class="card-title">Add Product </h4>
+                    <p class="card-category">Fill up Complete Car Details</p>
                   </div>
                   <div class="card-body">
-                    <div class="table-responsive">
-                      <table class="table">
-                        <thead class=" text-primary">
-                          <th>
-                            ID
-                          </th>
-                          <th>
-                            Name
-                          </th>
-                          <th>
-                            Arabic Name
-                          </th>
-                          <th>
-                            Urdu Name
-                          </th>
-                          <th>
-                            Person Capacity
-                          </th>
-                          <th>
-                            Bag Capacity
-                          </th>
-                          <th>
-                            Action
-                          </th>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>
-                              1
-                            </td>
-                            <td>
-                              Dakota Rice
-                            </td>
-                            <td>
-                              Niger
-                            </td>
-                            <td>
-                              Oud-Turnhout
-                            </td>
-                            <td class="text-primary">
-                              3
-                            </td>
-                            <td>
-                              4
-                            </td>
-                            <td>
-                                <a href="" class="btn btn-warning btn-sm">Edit</a>
-                                <a href="" class="btn btn-danger btn-sm">Delete</a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                              2
-                            </td>
-                            <td>
-                              Minerva Hooper
-                            </td>
-                            <td>
-                              Curaçao
-                            </td>
-                            <td>
-                              Sinaai-Waas
-                            </td>
-                            <td class="text-primary">
-                              4
-                            </td>
-                            <td>
-                                4
-                              </td>
-                              <td>
-                                <a href="" class="btn btn-warning btn-sm">Edit</a>
-                                <a href="" class="btn btn-danger btn-sm">Delete</a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                              3
-                            </td>
-                            <td>
-                              Sage Rodriguez
-                            </td>
-                            <td>
-                              Netherlands
-                            </td>
-                            <td>
-                              Baileux
-                            </td>
-                            <td class="text-primary">
-                              5
-                            </td>
-                            <td>
-                                4
-                            </td>
-                            <td>
-                                <a href="" class="btn btn-warning btn-sm">Edit</a>
-                                <a href="" class="btn btn-danger btn-sm">Delete</a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                              4
-                            </td>
-                            <td>
-                              Philip Chaney
-                            </td>
-                            <td>
-                              Korea, South
-                            </td>
-                            <td>
-                              Overland Park
-                            </td>
-                            <td class="text-primary">
-                              6
-                            </td>
-                            <td>
-                                4
-                            </td>
-                            <td>
-                                <a href="" class="btn btn-warning btn-sm">Edit</a>
-                                <a href="" class="btn btn-danger btn-sm">Delete</a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                              5
-                            </td>
-                            <td>
-                              Doris Greene
-                            </td>
-                            <td>
-                              Malawi
-                            </td>
-                            <td>
-                              Feldkirchen in Kärnten
-                            </td>
-                            <td class="text-primary">
-                              7
-                            </td>
-                            <td>
-                                4
-                            </td>
-                            <td>
-                                <a href="" class="btn btn-warning btn-sm">Edit</a>
-                                <a href="" class="btn btn-danger btn-sm">Delete</a>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                              6
-                            </td>
-                            <td>
-                              Mason Porter
-                            </td>
-                            <td>
-                              Chile
-                            </td>
-                            <td>
-                              Gloucester
-                            </td>
-                            <td class="text-primary">
-                              8
-                            </td>
-                            <td>
-                                4
-                            </td>
-                            <td>
-                                <a href="" class="btn btn-warning btn-sm">Edit</a>
-                                <a href="" class="btn btn-danger btn-sm">Delete</a>
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
+                    <form>
+                      
+                      <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="country_id" class="bmd-label-floating">City From</label>
+                                <select class="form-control" id="city_from_id">
+                                  <option>City 1</option>
+                                  <option>City 2</option>
+                                  <option>City 3</option>
+                                  <option>City 1</option>
+                                </select>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="country_id" class="bmd-label-floating">City To</label>
+                                <select class="form-control" id="city_to_id">
+                                  <option>ARAB</option>
+                                  <option>ARAB</option>
+                                  <option>ARAB</option>
+                                  <option>ARAB</option>
+                                  <option>ARAB</option>
+                                </select>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="row"> 
+                        <div class="col-md-6"> 
+                            <div class="form-group">
+                                <label for="country_id" class="bmd-label-floating">Select Car</label>
+                                <select class="form-control" id="car_id">
+                                  <option>Car 1</option>
+                                  <option>Car 2</option>
+                                </select>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label class="bmd-label-floating">Title</label>
+                            <input type="text" class="form-control" name="title" id="title">
+                          </div>
+                        </div>                        
+                        <div class="col-md-4">
+                            <div class="form-group">
+                              <label class="bmd-label-floating">Arabic Titla</label>
+                              <input type="text" class="form-control" name="title_arabic" id="title_arabic">
+                            </div>
+                          </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                              <label class="bmd-label-floating">Urdu Title</label>
+                              <input type="text" class="form-control" name="title_urdu" id="title_urdu">
+                            </div>
+                          </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label class="bmd-label-floating">Description</label>
+                            <textarea name="description" id="description" cols="30" rows="10"></textarea>
+                          </div>
+                        </div>  
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label class="bmd-label-floating">Description Arabic</label>
+                            <textarea name="description_arabic" id="description_arabic" cols="30" rows="10"></textarea>
+                          </div>
+                        </div>  
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label class="bmd-label-floating">Description Urdu</label>
+                            <textarea name="description_urdu" id="description_urdu" cols="30" rows="10"></textarea>
+                          </div>
+                        </div>  
+                      </div>
+                      <div class="row">
+                          <div class="col-md-4">
+                            <div class="form-group">
+                                <label class="bmd-label-floating">Price per Person</label>
+                                <input type="number" class="form-control" name="price_per_person" id="price_per_person">
+                              </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="form-group">
+                                <label class="bmd-label-floating">Pick up Location</label>
+                                <input type="text" class="form-control" name="pickup_location" id="pickup_location">
+                              </div>
+                          </div>
+                          <div class="col-md-4">
+                              <div class="form-group">
+                                <label for="pickup_location" class="bmd-label-floating"> Number of Person</label>
+                                <input type="number" class="form-control" name="pickup_location" id="pickup_location">
+                              </div>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="" class="bmd-label-floating">Date</label>
+                                <input type="date" name="date" id="date" class="form-control" placeholder="" aria-describedby="helpId">
+                              </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="" class="bmd-label-floating">Type</label>
+                                <input type="text" name="type" id="type" class="form-control" placeholder="" aria-describedby="helpId">
+                              </div>
+                          </div>
+                         
+                      </div>
+
+                      <button type="submit" class="btn btn-primary ">Save</button>
+                      <div class="clearfix"></div>
+                    </form>
                   </div>
                 </div>
               </div>
